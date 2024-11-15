@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Fredoka", sans-serif;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    margin-left: 24%;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav > input{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+nav > button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+nav > button:hover{
+    background-color: rgb(16, 13, 238);
+    color: rgb(255, 255, 255);
+}
+nav > h1{
+    font-size: 30px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+nav > ul > li{
+    margin: 0 20px;
+}
+nav > ul > li:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}   
+nav > ul > li > a:hover{
+    color: rgb(0, 0, 0);
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(210, 239, 45, 0);
+}
+.cont1{
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 6px solid black;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+    
+}
+
+.cont1 :hover{
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+.cont1 > i{
+    font-size: 70px;
+    text-align: center;
+}
+
+.cont1 > h1{
+    text-align: center;
+}
+
+.cont2{
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 6px solid black;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.cont2 :hover{
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+.cont2 > i{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(105, 13, 144);
+
+}
+.cont2 > h1{
+    text-align: center;
+}
+.cont3{
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 6px solid black;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.cont3 :hover{
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+.cont3 > i{
+    font-size: 70px;
+    text-align: center;
+    color: green;
+}
+.cont3 > h1{
+    text-align: center;
+}
+.cont4{
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 6px solid black;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.cont4 :hover{
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+.cont4 > i{
+    font-size: 70px;
+    text-align: center;
+    color: red;
+}
+.cont4 > h1{
+    text-align: center;
+}
+.cont5{
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 6px solid black;
+    transition: all 0.5s ease;
+    border-radius: 20px;
+}
+
+.cont5 :hover{
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+.cont5 > i{
+    font-size: 70px;
+    text-align: center;
+    color: blue;     
+}  
+.cont5 > h1{
+    text-align: center;
+}
